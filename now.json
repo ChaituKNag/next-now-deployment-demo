@@ -1,0 +1,11 @@
+{
+    "version": 2,
+    "alias": "next-now-deployment-demo",
+    "name": "next-now-deployment-demo",
+    "builds": [ 
+        {
+            "src": "next.config.js",
+            "use": "@now/next"
+        }
+    ]
+}
